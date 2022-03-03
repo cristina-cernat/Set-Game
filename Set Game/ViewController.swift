@@ -9,11 +9,61 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //var btnTitle = [NSAttributedString]()
+    lazy var game = SetGame()
+    let font = UIFont.systemFont(ofSize: 36)
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        setBorders()
+
+        setButtons()
+
+        for card in game.cards {
+            print("\(card)")
+        }
+
+        for button in cardButtons {
+            if cardButtons.firstIndex(of: button)! < 12 {
+                drawCardOn(button: button)
+            }
+        }
     }
 
+
+    func updateViewFromModel() {
+        // deselect cards
+        for button in cardButtons {
+            button.layer.borderWidth = 1.0
+            button.layer.borderColor = UIColor.blue.cgColor
+        }
+
+
+    }
+
+    func drawCardOn(button: UIButton) {
+        if let card = game.cards.last {
+            game.cards.removeLast()
+            button.isHidden = false
+
+            let btnAttributes: [NSAttributedString.Key: Any] = [
+                .foregroundColor: card.color.description.withAlphaComponent(card.shading.description),
+                .font: font,
+                .strokeWidth: -4.0,
+                .strokeColor: card.color.description
+            ]
+            var symbols = card.symbol.description
+            for _ in 0..<card.number {
+                symbols += card.symbol.description
+            }
+
+            let btnTitle = NSAttributedString(string: symbols, attributes: btnAttributes)
+            button.setAttributedTitle(btnTitle, for: .normal)
+
+            game.displayedCards.append(card)
+        } else {
+            button.isHidden = true
+        }
+    }
 
     @IBOutlet var cardButtons: [UIButton]!
 
@@ -25,10 +75,28 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var scoreLabel: UILabel!
 
-    func setBorders() {
+    @IBAction func selectCardButton(_ sender: UIButton) {
+        sender.layer.borderColor = UIColor.black.cgColor
+        sender.layer.borderWidth = 3.0
+        if let cardNumber = cardButtons.firstIndex(of: sender) {
+            game.selectedCards.append(game.displayedCards[cardNumber])
+        }
+
+        if game.selectedCards.count % 3 == 0 {
+            game.checkMatchingCards()
+            game.selectedCards.removeAll()
+
+            updateViewFromModel()
+        }
+        scoreLabel.text = "Score: \(game.score)"
+    }
+
+    func setButtons() {
         for button in cardButtons {
-            button.layer.borderWidth = 3.0
+            button.layer.borderWidth = 1.0
             button.layer.borderColor = UIColor.blue.cgColor
+            button.layer.cornerRadius = 8.0
+            button.isHidden = true
         }
     }
 

@@ -53,16 +53,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R1K-Sc-f6U"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wkb-T5-I3f">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9u-Db-zPt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIf-da-4ik">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LYH-TJ-NcD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -73,16 +82,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="evp-yl-eJx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZb-ZS-UkJ">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3u-Mb-WFK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K94-Y6-lKZ">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmc-RX-b1K"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -93,16 +111,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cop-L5-ick"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwv-we-e0v">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BL6-R6-QQF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQh-bg-DAr">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BJT-VL-Xma"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -113,16 +140,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zEh-6f-ehx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdG-H7-2Sj">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dBa-rg-w2s"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sa-lc-NTs">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IiS-qb-XNk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -133,16 +169,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsD-5j-evM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4I-7G-msR">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JT7-ze-1UU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0A-LO-PqK">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Fg-4T-jxJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -153,16 +198,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4g-QV-Pu7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obm-jv-XCS">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9KP-Ro-bAs"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDI-2A-ruh">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lC0-tW-cAs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -173,16 +227,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Dd-K1-nmO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9y-9O-Xkp">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJ9-iZ-foM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3K-BW-UOd">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ECk-P1-mbt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -193,16 +256,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yjM-ZO-NdE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlW-5a-af0">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrl-zb-X6u"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pi0-yo-UIn">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="79"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="▲"/>
+                                                <connections>
+                                                    <action selector="selectCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAk-Tu-Vei"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
