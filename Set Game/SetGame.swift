@@ -15,7 +15,8 @@ struct SetGame {
 
     var selectedCards = [Card]()
 
-    var matchedSets = [[Card]] ()
+    var matchedSets = Set<Set<Card>> ()
+
     lazy var sets: Set<[[Card]]> = []
 
     init() {
@@ -29,6 +30,12 @@ struct SetGame {
             }
         }
         cards = cards.shuffled()
+        // hash sets don't care about order
+        var test1: Set<Card> = [Card(symbol: .triangle, color: .red, number: 1, shading: .filled), Card(symbol: .square, color: .green, number: 0, shading: .striped), Card(symbol: .oval, color: .purple, number: 2, shading: .outlines)]
+        var test2: Set<Card> = [Card(symbol: .oval, color: .purple, number: 2, shading: .outlines), Card(symbol: .triangle, color: .red, number: 1, shading: .filled), Card(symbol: .square, color: .green, number: 0, shading: .striped)]
+        print(test1.hashValue)
+        print(test2.hashValue)
+
     }
 
 
@@ -37,10 +44,10 @@ struct SetGame {
 //            if (selectedCards[0].shading.rawValue + selectedCards[1].shading.rawValue + selectedCards[2].shading.rawValue) % 3 == 0 {
 //                if (selectedCards[0].color.rawValue + selectedCards[1].color.rawValue + selectedCards[2].color.rawValue) % 3 == 0 {
 //                    if (selectedCards[0].number + selectedCards[1].number + selectedCards[2].number) % 3 == 0 {
-                        if !sets.contains([selectedCards]) {
+                        if !matchedSets.contains(Set<Card>(selectedCards)) {
                             score += 1
-                            matchedSets += [selectedCards]
-                            sets.insert(matchedSets)
+                            matchedSets.insert(Set<Card>(selectedCards))
+                            //sets.insert(matchedSets)
                         } else {
                             print("Set already found")
                         }
@@ -54,7 +61,7 @@ struct SetGame {
         }
         print("checkMatchingCards() was called, score: \(score)")
         print("selectedCards: \(selectedCards)")
-        print("sets: \(sets.count)")
+        print("matchedSets: \(matchedSets.count)")
     }
 
 }
